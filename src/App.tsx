@@ -1,8 +1,12 @@
 import React from "react";
-import "./App.css";
+import OldMajor from "./components/OldMajor/OldMajor";
 
 const App: React.FC = () => {
-  return <div className='App'>hi</div>;
+  return (
+    <div className='App'>
+      <OldMajor />
+    </div>
+  );
 };
 
 export default App;

@@ -1,0 +1,83 @@
+.old-major {
+  width: 320px;
+  height: 480px;
+  background-color: #f7d0ce;
+  position: relative;
+  overflow: hidden;
+}
+
+.old-major_ears {
+  width: 100px;
+  border-right: 110px solid #ff8f8f;
+  border-left: 110px solid #ff8f8f;
+  border-bottom: 160px solid transparent;
+  position: absolute;
+  top: 20%;
+  z-index: 1;
+}
+
+.old-major_big-spot {
+  width: 200px;
+  height: 150px;
+  background-color: #bdbdbd;
+  border-radius: 50%;
+  position: absolute;
+  top: 25%;
+  left: -20%;
+}
+
+.old-major_nose {
+  width: 164px;
+  height: 120px;
+  background-color: #ff8f8f;
+  border-radius: 50%;
+  position: absolute;
+  top: 60%;
+  left: 25%;
+}
+
+.old-major_nose:before {
+  content: "";
+  width: 32px;
+  height: 32px;
+  background-color: #463131;
+  border-radius: 50%;
+  position: absolute;
+  top: 36%;
+  left: 18%;
+}
+
+.old-major_nose:after {
+  content: "";
+  width: 32px;
+  height: 32px;
+  background-color: #463131;
+  border-radius: 50%;
+  position: absolute;
+  top: 36%;
+  right: 18%;
+}
+
+.old-major_wrinkle {
+  width: 210px;
+  height: 190px;
+  border-top: 8px solid transparent;
+  border-right: 8px solid #ff8f8f;
+  border-bottom: 8px solid transparent;
+  border-left: 8px solid #ff8f8f;
+  border-radius: 50%;
+  position: absolute;
+  top: 52%;
+  left: 15%;
+  z-index: 1;
+}
+
+.old-major_small-spot {
+  width: 100px;
+  height: 75px;
+  background-color: #bdbdbd;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 5%;
+  right: -10%;
+}
